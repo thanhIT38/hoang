@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+body{
+    font-family: 'Kanit', sans-serif;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+body{
+  background-color: #79155B;;
+}
+header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 3px 8px;
+    width: 90vw;
+}
+.logo {
+    flex: 1;
+}
+.logo img{
+    width: 233px;
+height: 101px;
+flex-shrink: 0;
+}
+.menu ul {
+    display: flex;
+    align-items: center;
+    color: wheat;
+    gap: 20px;
+}
+.menu ul li{
+    color: #FFF;
+font-size: 36px;
+font-weight: 400;
+padding: 3px;
+}
+
+li.user {
+    width: 90px;
+    height: 90px;
+    flex-shrink: 0;
+}
+.container{
+    width: 90vw;
+    margin-bottom: 123px;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+.imgtop img{
+    background-image: lightgray 50% / cover no-repeat;
+}
+.nghe{
+    width: 217px;
+height: 41px;
+flex-shrink: 0;
+margin: 0;
+}
+.xam{
+    width: 716px;
+height: 41px;
+flex-shrink: 0;
+margin: 0;
+
+border-radius: 4px;
+border: 0px solid #000;
+background: #D9D9D9;
+}
+.top{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 83px;
+    margin-top: 20px;
+}
+
+.top_music {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    gap: 30px;
+      
+}
+.img_content {
+    width: 90vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.img_content img{
+    width: 50%;
+    margin: 0;
+}
+.img_content .text{
+    margin: 0;
+}
+.text h6 {
+    color: #FFF;
+    font-family: Times New Roman;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.text h3 {
+    color: #FFF;
+    font-family: Times New Roman;
+    font-size: 140px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.text img{
+    width: 100px;
+height: 100px;
+flex-shrink: 0;
+}
+.imgtop {
+    width: 324px;
+    height: 324px;
+    margin-left: 20px;
+    flex-shrink: 0;
+    background: url(./img/Rectangle\ 18.png), lightgray 50% / cover no-repeat;
+}
+
+.top_music h4 {
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 61px;
+    font-weight: 400;
+}
+
+.top_music h6 {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 400;
+}
+.top20{
+    width: 90vw;
+}
+
+.top20 h4 {
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 400;
+    margin: 0;
+}
+.top20 img{
+    margin: 0;
+}
+.top_20 {
+    display: flex;
+}
+.line {
+    background: #FFF;
+    height: 7px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 120px;
+    flex-shrink: 0;
+    height: 120px;
+    background: rgba(217, 217, 217, 0.29);
+    margin-bottom: 30px;
+}
+.box .so{
+        flex: 1;
+        margin-left: 27px;
+        width: 61px;
+        height: 41px;
+        flex-shrink: 0;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.casi {
+    flex: 1.5;
+    width: 103.851px;
+    height: 92px;
+    flex-shrink: 0;
+}
+.box_text h6{
+    color: #FFF;
+font-size: 36px;
+font-weight: 400;
+}
+.box_text p {
+    font-size: 32px;
+    font-weight: 400;
+    color: #FFD058;
+}
+.name{
+    margin: 0;
+}
+.profi {
+    gap: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* margin-right: 0; */
+}
+.profi p{
+    color: #FFF;
+font-family: Kanit;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.box_text {
+    flex: 14;
+    display: flex;
+}
+footer{
+    align-items: center;
+    background: #9A0C6F;
+    display: flex;
+    width: 90vw;
+    justify-content: start;
+}
+.text_footer p{
+    font-size: 36px;
+    font-weight: 400;
+    color: #FFDF8E;
+}
+.left{
+    margin: 0;
+}
+.text_footer {
+    width: 725.276px;
+    height: 210px;
+    flex-shrink: 0;
+}
+.menu_footer {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+}
+.menu_footer ul{
+    color: #FFF;
+font-size: 36px;
+font-weight: 400;
+}
+ul 
+    li {
+        color: #C8C8C8;
+        font-size: 30px;
+        font-weight: 400;
+
+}
+
+.lk li{
+    width: 95.335px;
+height: 96px;
+flex-shrink: 0;
+}
